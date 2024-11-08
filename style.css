@@ -1,0 +1,82 @@
+body {
+  background-color: beige;
+  font-family: "Abel", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+img {
+  height: 200px;
+}
+
+.tite {
+  text-align: center;
+}
+
+/*Naviguetor menu*/
+.navi {
+  height: 100px;
+  background-color: rgb(255, 183, 0);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.navi > a {
+  color: rgb(255, 38, 0);
+  text-decoration: none;
+}
+
+/*Fin Naviguetor menu*/
+
+/*Seccion del cuerpo*/
+
+section {
+  width: 300px;
+  border: 2px solid rgb(245, 232, 58);
+  border-radius: 16px;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 30px;
+}
+
+section > h2 {
+  text-align: center;
+}
+
+/*Fin Seccion del cuerpo*/
+
+footer {
+  text-align: center;
+  background-color: rgb(255, 183, 0);
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  width: 200px;
+  background-color: rgb(69, 69, 223);
+  color: aliceblue;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  border-width: 0;
+  padding-left: 46px;
+  padding-right: 46px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  cursor: pointer;
+}
+
+
+button:hover{
+    background-color: black;
+    color: tan;
+    color: rebeccapurple;
+}
+
+
+
