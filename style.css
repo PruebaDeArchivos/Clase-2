@@ -21,6 +21,7 @@ img {
   justify-content: space-around;
   align-items: center;
   margin-bottom: 40px;
+  
 }
 
 .navi > a {
@@ -32,6 +33,11 @@ img {
 
 /*Seccion del cuerpo*/
 
+main{
+    display: flex;
+    text-align: center;
+}
+
 section {
   width: 300px;
   border: 2px solid rgb(245, 232, 58);
@@ -39,6 +45,7 @@ section {
   margin: auto;
   margin-bottom: 20px;
   padding: 30px;
+
 }
 
 section > h2 {
@@ -71,12 +78,8 @@ button {
   cursor: pointer;
 }
 
-
-button:hover{
-    background-color: black;
-    color: tan;
-    color: rebeccapurple;
+button:hover {
+  background-color: black;
+  color: tan;
+  color: rebeccapurple;
 }
-
-
-
